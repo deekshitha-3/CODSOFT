@@ -5,22 +5,14 @@ This repository contains the tasks completed for my web development internship a
 ## Task List
 
 ### 1. Personal Portfolio
-
 A personal portfolio showcasing my skills, projects, and contact information.
 
-![Personal Portfolio](portfolio/screenshot.png)
-
 ### 2. Landing Page
-
 A creative landing page designed using HTML and CSS to demonstrate layout and styling skills.
 
-![Landing Page](landing_page/screenshot.png)
-
 ### 3. Calculator
-
 A basic calculator built with HTML, CSS, and JavaScript, featuring addition, subtraction, multiplication, and division functions.
 
-![Calculator](calculator/screenshot.png)
 
 ## Repository Structure
 
