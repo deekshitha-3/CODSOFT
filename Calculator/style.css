@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans';
+}
+
+::placeholder {
+    color: rgb(221, 221, 221);
+}
+  
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(35, 35, 35);
+    transition: 0.8s all;
+}
+  
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1.5%;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+  
+input {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    cursor: pointer;
+    width: 70px;
+    background-color: rgb(47, 51, 50);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    margin: 0.2em;
+}
+  
+.result-row {
+    margin-bottom: 5px;
+}
+  
+input[type="text"] {
+    background-color: rgb(47, 51, 50);
+    width: 310px;
+}
+  
+input[type="button"]:hover {
+    background-color: rgb(101, 101, 101);
+    color: #fff;
+}
+  
+.special-button {
+    background-color: rgb(18, 134, 134);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
